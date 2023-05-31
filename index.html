@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind:wght@400;600&family=Playfair+Display:wght@400;500;700&family=Roboto:wght@300;400&family=Work+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container my-5 d-flex justify-content-between align-items-center">
+        <a href="#"><img src="images/upload-icon.svg" alt="upload icon" class="icon" ></a>
+        <input type="text" placeholder="Enter any Location"
+            class="fs-3 px-md-5 input-box border border-0 text-white fw-bold mt-2 text-center" id="inputBox">
+        <a href="#" class="mt-2"><img src="images/notification.svg" alt="notification icon" class="icon" ></a>
+    </div>
+    <div class="d-flex flex-column justify-content-center align-items-center mt-5 mx-5">
+        <div class="fs-1 text-white fw-semibold mb-sm-4 text-center" id="PlaceName"></div>
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4 mx-auto">
+            <img src="images/sun_behind.png" alt="sun image" id="wheatherImage" class="img">
+            <div class="d-flex flex-column">
+                <h2 class="text-white px-2 loc-temp"><span id="temperature"></span><sup id="degree">o</sup></h2>
+                <h3 class="text-white weather-content" >Feels <span id="feelsLike"></span><sup>o</sup></h3>
+            </div>
+        </div>
+        <p class="text-white fs-3 text-center wheather-description mt-3">Make the most of this nice wheather<br> that I generated for you. or
+            else.</p>
+    </div>
+    <section class="output-container">
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

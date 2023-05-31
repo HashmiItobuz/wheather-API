@@ -1,0 +1,48 @@
+body {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    background-color: #3937fa;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+input {
+    background-color: #3937fa !important;
+}
+.input-box:focus{
+    outline: none;
+}
+
+h2 {
+    font-size: 4rem !important;
+}
+h3 {
+    font-size: 2rem !important;
+}
+.weather-content {
+    color: #7abfff !important;
+}
+.hidden {
+    display: none;
+}
+
+.icon {
+    height: 2rem;
+}
+.img {
+    height: 13rem;
+    width: 13rem;
+}
+
+
+@media screen and (min-width:425px) {
+    .font-size {
+       font-size: 4rem !important;
+    }
+
+    .icon {
+        height: 3rem;
+    }
+    
+}
