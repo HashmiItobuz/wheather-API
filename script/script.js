@@ -9,7 +9,7 @@ wheatherDescription.classList.add("hidden");
 
 var currWidth = wheatherImg.clientWidth;
 inputContainer.addEventListener("keyup", (e) => {
-  if (e.key === "Enter") {
+  if (e.key === "Enter" && inputContainer.value !== "") {
     getData();
   }
 });
