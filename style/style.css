@@ -23,7 +23,7 @@ input {
     font-size: 3rem;
 }
 
-.img {
+.weather-img {
     height: 13rem;
     width: 13rem;
 }
@@ -37,7 +37,7 @@ input {
     color: #7abfff !important;
 }
 
-.wheather-description {
+.weather-description {
     width: 20rem;
 }
 
@@ -63,7 +63,7 @@ input {
         height: 3rem;
     }
 
-    .wheather-description {
+    .weather-description {
         width: 25rem;
     }
     .error-img {
@@ -88,7 +88,7 @@ input {
         font-size: 2rem;
     }
 
-    .wheather-description {
+    .weather-description {
         width: 30rem;
     }
     .error-img {
