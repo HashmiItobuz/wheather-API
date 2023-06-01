@@ -30,7 +30,6 @@ input {
 
 .loc-temp {
     font-size: 4rem;
-    /* padding-bottom: 0px; */
     margin-bottom: 0px;
 
 }
@@ -51,6 +50,7 @@ input {
 .error-font-size {
     font-size: 3rem;
 }
+
 .error-img {
     width: 15rem;
     height: 15rem;
