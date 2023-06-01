@@ -30,6 +30,9 @@ input {
 
 .loc-temp {
     font-size: 4rem;
+    /* padding-bottom: 0px; */
+    margin-bottom: 0px;
+
 }
 
 .weather-content {
